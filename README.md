@@ -6,11 +6,13 @@ A FastAPI based boilerplate. The goal is to build a template that can be used as
 
 - All the goodness of modern, async FastAPI
 - Dockerized
+- TDD
 
-## Running
+## Running and testing
 
 ```
 docker-compose up -d --build
+docker-compose exec web pytest .
 ```
 
 ## License
